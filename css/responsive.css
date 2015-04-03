@@ -1,0 +1,5 @@
+@media screen and (max-width: 500px) {
+   ul.countdown li{ margin: 0 5px; }
+   ul.countdown li span{ font-size: 28px; }
+   ul.countdown li p{ font-size: 13px; color: #999; margin-bottom: 0; }
+}
