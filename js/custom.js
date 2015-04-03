@@ -110,6 +110,11 @@ $(function(){
       },
    });
 
+  var currentYear = (new Date).getFullYear();
+  $(document).ready(function () {
+    $('#current-year').text((new Date).getFullYear());
+  });
+
   $(window).load(function(){
       $("main>div.data.scroll").mCustomScrollbar({
         theme:"minimal-dark"
